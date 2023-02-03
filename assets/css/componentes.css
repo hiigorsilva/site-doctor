@@ -1,0 +1,56 @@
+/* PALETA DE CORES */
+:root {
+  --BrandColor: #00856f;
+  --BrandColorHover: #00453a;
+  --BrandLight1: #cfe0d7;
+  --BrandLight2: #f7f9f9;
+  --GrayHeadline: #181818;
+  --GrayParagraph: #495057;
+  --White: #ffffff;
+}
+
+/* BOTÕES */
+.cta,
+.btn {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  transition: 0.2s ease-out;
+  -webkit-transition: 0.2s ease-out;
+  -moz-transition: 0.2s ease-out;
+  -ms-transition: 0.2s ease-out;
+  -o-transition: 0.2s ease-out;
+}
+.cta {
+  color: var(--White);
+  background-color: var(--BrandColor);
+}
+.cta:hover {
+  background-color: var(--BrandColorHover);
+}
+.btn {
+  background-color: var(--White);
+  color: var(--BrandColor);
+  border: 1px solid var(--BrandColor);
+}
+.btn:hover {
+  background-color: var(--BrandColor);
+  color: var(--White);
+  border-color: var(--White);
+}
+
+/* PRESETS */
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

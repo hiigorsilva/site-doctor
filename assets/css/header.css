@@ -7,17 +7,6 @@
   align-items: center;
   padding: 1rem;
 }
-.header .logo {
-  opacity: 0.8;
-  transition: 0.2s ease-out;
-  -webkit-transition: 0.2s ease-out;
-  -moz-transition: 0.2s ease-out;
-  -ms-transition: 0.2s ease-out;
-  -o-transition: 0.2s ease-out;
-}
-.header .logo:hover {
-  opacity: 1;
-}
 .header .menu ul {
   display: flex;
   align-items: center;

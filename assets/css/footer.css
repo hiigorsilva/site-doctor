@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--BrandColor);
+  padding: 3rem 0;
+}
+.footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer .content .logo {
+  margin-bottom: 1rem;
+}
+.footer .content span {
+  display: block;
+  font-size: 14px;
+  color: var(--BrandLight1);
+}
+.footer .content .rightside {
+  display: flex;
+  gap: 1rem;
+}
+.footer .content .rightside img {
+  height: 22px;
+  width: auto;
+}

@@ -1,0 +1,43 @@
+.contact {
+  background-color: var(--White);
+  padding: 10rem 0;
+}
+.contact .content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+.contact .leftside,
+.contact .rightside {
+  max-width: 45%;
+}
+.contact .leftside h2 {
+  text-align: initial;
+}
+.contact .leftside .box-local,
+.contact .leftside .box-email {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 1rem;
+}
+.contact .leftside span {
+  display: block;
+}
+.contact .leftside span.address,
+.contact .leftside span.email {
+  font-size: 1rem;
+  color: var(--GrayParagraph);
+}
+.contact .leftside .box-email {
+  margin-bottom: 2rem;
+}
+.contact .rightside img {
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

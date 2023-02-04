@@ -1,0 +1,71 @@
+.hero {
+  background-color: var(--BrandLight1);
+}
+.hero .content {
+  display: flex;
+  align-items: center;
+}
+.hero .headline,
+.hero .hero-img {
+  flex: 1;
+}
+.hero .headline {
+  padding: 4rem 0;
+}
+.hero .headline h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--GrayHeadline);
+  margin: 0.5rem 0 1rem 0;
+}
+.hero .headline p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--GrayParagraph);
+  margin-bottom: 2rem;
+}
+.hero .headline .cta span {
+  display: block;
+  letter-spacing: normal;
+  color: var(--White);
+}
+/********** NUMBERS INFO **********/
+.hero .numbers {
+  position: relative;
+  background-color: var(--BrandBeige);
+  padding: 3rem;
+  margin-bottom: -5rem;
+  border: 1px solid var(--BrandLight1);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.hero .numbers ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.hero .numbers li {
+  text-align: center;
+}
+.hero .numbers span {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.hero .numbers h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--BrandColor);
+}
+.hero .numbers .separator {
+  height: 5rem;
+  width: 2px;
+  background-color: var(--BrandColor);
+}

@@ -4,6 +4,7 @@
   --BrandColorHover: #00453a;
   --BrandLight1: #cfe0d7;
   --BrandLight2: #f7f9f9;
+  --BrandBeige: #faeed7;
   --GrayHeadline: #181818;
   --GrayParagraph: #495057;
   --White: #ffffff;
@@ -29,6 +30,11 @@
   -o-transition: 0.2s ease-out;
 }
 .cta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: fit-content;
+  width: 100%;
   color: var(--White);
   background-color: var(--BrandColor);
 }
@@ -44,6 +50,24 @@
   background-color: var(--BrandColor);
   color: var(--White);
   border-color: var(--White);
+}
+.title-section {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 1rem;
+  color: var(--BrandColor);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--GrayHeadline);
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto 4rem auto;
 }
 
 /* PRESETS */

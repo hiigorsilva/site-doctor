@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--BrandLight1);
+  padding-top: 2rem;
+}
+.header a img {
+  height: 26px;
+}
+
+/* RESPONSIVIDADE TABLET */
+@media (max-width: 768px) {
+  .header a img {
+    margin: 0 auto;
+  }
+}

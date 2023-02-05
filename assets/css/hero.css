@@ -3,7 +3,7 @@
 }
 .hero .content {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 .hero .headline,
 .hero .hero-img {
@@ -30,6 +30,10 @@
   display: block;
   letter-spacing: normal;
   color: var(--White);
+}
+.hero .hero-img {
+  margin-left: auto;
+  margin-right: auto;
 }
 /********** NUMBERS INFO **********/
 .hero .numbers {
@@ -68,4 +72,54 @@
   height: 5rem;
   width: 2px;
   background-color: var(--BrandColor);
+}
+
+/* RESPONSIVIDADE PARA TABLET */
+@media (max-width: 940px) {
+  .hero .headline h1 {
+    font-size: 40px;
+  }
+  .hero .hero-img img {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* RESPONSIVIDADE PARA TABLET */
+@media (max-width: 768px) {
+  .hero .content {
+    flex-direction: column;
+  }
+  .hero .headline {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .hero .headline .cta {
+    margin: auto;
+  }
+  .hero .hero-img img {
+    max-width: 90%;
+  }
+  .hero .numbers {
+    padding: 2rem;
+  }
+  .hero .numbers span {
+    font-size: 36px;
+  }
+}
+
+/* RESPONSIVIDADE PARA MOBILE */
+@media (max-width: 650px) {
+  .hero .numbers {
+    max-width: 90%;
+  }
+  .hero .numbers ul {
+    flex-direction: column;
+  }
+  .hero .numbers .separator {
+    width: 100%;
+    height: 2px;
+    margin: 1.5rem 0;
+  }
 }

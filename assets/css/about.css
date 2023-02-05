@@ -35,3 +35,36 @@
   color: var(--GrayParagraph);
   line-height: 1.5;
 }
+
+/* RESPONSIVIDADE PARA TABLET */
+@media (max-width: 768px) {
+  .about {
+    padding: 5rem 0;
+  }
+  .about .content {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .about .content .text {
+    max-width: 100%;
+  }
+  .about .content .text .title-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .about .content .text h2 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    text-align: center;
+  }
+  .about .content .about-img {
+    max-width: 100%;
+    margin: auto;
+  }
+  .about .content .about-img img {
+    width: 100%;
+    margin: auto;
+  }
+}

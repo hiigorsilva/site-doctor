@@ -2,6 +2,11 @@
   background-color: var(--BrandLight1);
   padding: 2rem 0;
 }
+.header a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 .header a img {
   height: 26px;
 }

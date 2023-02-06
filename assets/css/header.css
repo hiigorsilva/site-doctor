@@ -1,6 +1,6 @@
 .header {
   background-color: var(--BrandLight1);
-  padding-top: 2rem;
+  padding: 2rem 0;
 }
 .header a img {
   height: 26px;

@@ -13,7 +13,7 @@
 
 /* RESPONSIVIDADE TABLET */
 @media (max-width: 768px) {
-  .header a img {
-    margin: 0 auto;
+  .header a {
+    justify-content: center;
   }
 }
